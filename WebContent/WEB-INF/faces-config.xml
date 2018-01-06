@@ -9,5 +9,15 @@
 		<managed-bean-class>formulare.FormClient</managed-bean-class>
 		<managed-bean-scope>session</managed-bean-scope>
 	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>Example_Entity</managed-bean-name>
+		<managed-bean-class>com.sample.Example_Entity</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>example</managed-bean-name>
+		<managed-bean-class>com.sample.Example</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
 
 </faces-config>
