@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+<title>Add Product</title>
+</h:head>
+<h:body>
+    <h:form>
+        <h:panelGrid border="1" columns="2">
+            <h:outputLabel value="Name"></h:outputLabel>
+            <h:inputText value="#{formRoa.product.name}"></h:inputText>
+            <h:outputLabel value="Net Income"></h:outputLabel>
+            <h:inputText value="#{formRoa.product.netIncome}"></h:inputText>
+        </h:panelGrid>	
+        <h:panelGrid columns="1">
+       		 <h:commandButton actionListener="#{formRoa.addProduct}" value="Add Product"></h:commandButton>
+        </h:panelGrid>
+             <h:panelGrid columns="1">
+       		 <h:outputLabel value="#{formRoa.ROAMessage}"></h:outputLabel>
+       		  <h:outputLabel value="#{formRoa.ROEMessage}"></h:outputLabel>
+        </h:panelGrid>
+    </h:form>
+</h:body>
+</html>

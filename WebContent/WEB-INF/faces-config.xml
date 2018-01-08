@@ -19,5 +19,15 @@
 		<managed-bean-class>com.sample.Example</managed-bean-class>
 		<managed-bean-scope>session</managed-bean-scope>
 	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>formRoa</managed-bean-name>
+		<managed-bean-class>com.sample.FormROA</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>product</managed-bean-name>
+		<managed-bean-class>com.sample.Product</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
 
 </faces-config>
