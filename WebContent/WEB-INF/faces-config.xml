@@ -5,21 +5,6 @@
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
     version="2.2">
 	<managed-bean>
-		<managed-bean-name>formClient</managed-bean-name>
-		<managed-bean-class>formulare.FormClient</managed-bean-class>
-		<managed-bean-scope>session</managed-bean-scope>
-	</managed-bean>
-	<managed-bean>
-		<managed-bean-name>Example_Entity</managed-bean-name>
-		<managed-bean-class>com.sample.Example_Entity</managed-bean-class>
-		<managed-bean-scope>session</managed-bean-scope>
-	</managed-bean>
-	<managed-bean>
-		<managed-bean-name>example</managed-bean-name>
-		<managed-bean-class>com.sample.Example</managed-bean-class>
-		<managed-bean-scope>session</managed-bean-scope>
-	</managed-bean>
-	<managed-bean>
 		<managed-bean-name>formRoa</managed-bean-name>
 		<managed-bean-class>com.sample.FormROA</managed-bean-class>
 		<managed-bean-scope>session</managed-bean-scope>
@@ -27,6 +12,11 @@
 	<managed-bean>
 		<managed-bean-name>product</managed-bean-name>
 		<managed-bean-class>com.sample.Product</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>formRoic</managed-bean-name>
+		<managed-bean-class>com.sample.FormROIC</managed-bean-class>
 		<managed-bean-scope>session</managed-bean-scope>
 	</managed-bean>
 
